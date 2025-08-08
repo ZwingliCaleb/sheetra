@@ -1,0 +1,598 @@
+2025-08-08 17:19:05,953 INFO [example]                 Book.java:562  | 5 sheets in /home/zwingli/sheetra/backend/uploads/example.pdf
+2025-08-08 17:19:06,277 INFO []                 Book.java:2531 | Stored /book.xml
+2025-08-08 17:19:06,278 INFO []                 Book.java:2491 | Book stored as /home/zwingli/sheetra/backend/outputs/example.omr
+2025-08-08 17:19:06,285 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1#2#3#4#5]
+2025-08-08 17:19:06,288 INFO [example#1]       StepMonitoring.java:98   | LOAD
+2025-08-08 17:19:06,765 INFO [example#1]            SheetStub.java:1268 | Loaded image #1 2479x3508 from /home/zwingli/sheetra/backend/uploads/example.pdf
+2025-08-08 17:19:06,773 INFO [example#1]       StepMonitoring.java:98   | BINARY
+2025-08-08 17:19:07,864 INFO [example#1]       StepMonitoring.java:98   | SCALE
+2025-08-08 17:19:07,916 INFO [example#1]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-08-08 17:19:07,918 INFO [example#1]         ScaleBuilder.java:264  | Beam measured height: 11 -- 0.33 of [6..21] range at 301% of needed quorum
+2025-08-08 17:19:07,919 INFO [example#1]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,4) beam(11)}
+2025-08-08 17:19:07,921 INFO [example#1]       StepMonitoring.java:98   | GRID
+2025-08-08 17:19:08,579 INFO [example#1]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-08-08 17:19:08,644 INFO [example#1]    ClustersRetriever.java:328  | Retrieved raw line clusters: 8 of sizes [5] with interline(20,21,21)
+2025-08-08 17:19:08,889 INFO [example#1]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8]
+2025-08-08 17:19:09,388 INFO [example#1]        SystemManager.java:134  | Indentation detected for system #1
+2025-08-08 17:19:09,390 INFO [example#1]        SystemManager.java:779  | 1 part along 4 systems
+2025-08-08 17:19:09,391 INFO [example#1]                 Book.java:545  | Created scores: [{Score 1}]
+2025-08-08 17:19:09,393 INFO [example#1]       StepMonitoring.java:98   | HEADERS
+2025-08-08 17:19:09,856 INFO [example#1]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-08-08 17:19:09,862 INFO [example#1]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/home/zwingli/audiveris/app/build/install/app/lib/audiveris.jar!/res/basic-classifier.zip
+2025-08-08 17:19:11,359 INFO [example#1]       StepMonitoring.java:98   | STEM_SEEDS
+2025-08-08 17:19:11,486 INFO [example#1]        StemSeedsStep.java:86   | stem(3 max:4)
+2025-08-08 17:19:11,579 INFO [example#1]       StepMonitoring.java:98   | BEAMS
+2025-08-08 17:19:17,101 INFO [example#1]       StepMonitoring.java:98   | LEDGERS
+2025-08-08 17:19:17,498 INFO [example#1]       StepMonitoring.java:98   | HEADS
+2025-08-08 17:19:22,177 INFO [example#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:-0.5] NOTEHEAD_BLACK[L:0.5,R:0.3]}
+2025-08-08 17:19:22,178 INFO [example#1]       StepMonitoring.java:98   | STEMS
+2025-08-08 17:19:23,168 INFO [example#1]       StepMonitoring.java:98   | REDUCTION
+2025-08-08 17:19:23,400 INFO [example#1]        ReductionStep.java:105  | Stems free length median value: 72 pixels, 3.4 interlines
+2025-08-08 17:19:23,408 INFO [example#1]       StepMonitoring.java:98   | CUE_BEAMS
+2025-08-08 17:19:23,409 INFO [example#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-08-08 17:19:23,411 INFO [example#1]       StepMonitoring.java:98   | TEXTS
+2025-08-08 17:19:25,178 INFO [example#1]       StepMonitoring.java:98   | MEASURES
+2025-08-08 17:19:25,196 INFO [example#1]                 Page.java:307  | 11 raw measures: [2 in system#1, 3 in system#2, 3 in system#3, 3 in system#4]
+2025-08-08 17:19:25,197 INFO [example#1]       StepMonitoring.java:98   | CHORDS
+2025-08-08 17:19:25,234 INFO [example#1]       StepMonitoring.java:98   | CURVES
+2025-08-08 17:19:26,643 INFO [example#1]         SlursBuilder.java:240  | Slurs: 0
+2025-08-08 17:19:26,656 INFO [example#1]      SegmentsBuilder.java:155  | Segments: 1
+2025-08-08 17:19:26,666 INFO [example#1]       StepMonitoring.java:98   | SYMBOLS
+2025-08-08 17:19:27,187 INFO [example#1]       StepMonitoring.java:98   | LINKS
+2025-08-08 17:19:27,252 INFO [example#1]       StepMonitoring.java:98   | RHYTHMS
+2025-08-08 17:19:27,297 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#1} No timeOffset for HeadChordInter#3846{(0.954/0.954) staff:1 slot#10 dur:1/8}
+2025-08-08 17:19:27,300 INFO [example#1]                Voice.java:257  | Measure{#1} Voice{#1 excess:1/8} too long
+2025-08-08 17:19:27,303 INFO [example#1]          StackRhythm.java:224  | S1 MeasureStack#1 no correct rhythm
+2025-08-08 17:19:27,312 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#2} No timeOffset for HeadChordInter#3858{(0.953/0.953) staff:1 slot#10 dur:1/8}
+2025-08-08 17:19:27,315 INFO [example#1]                Voice.java:257  | Measure{#2} Voice{#1 excess:1/8} too long
+2025-08-08 17:19:27,316 INFO [example#1]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2025-08-08 17:19:27,326 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#3} No timeOffset for HeadChordInter#3874{(0.946/0.946) staff:3 slot#10 dur:1/8}
+2025-08-08 17:19:27,327 INFO [example#1]                Voice.java:257  | Measure{#3} Voice{#1 excess:1/8} too long
+2025-08-08 17:19:27,328 INFO [example#1]                Voice.java:257  | Measure{#3} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:27,329 INFO [example#1]          StackRhythm.java:224  | S2 MeasureStack#3 no correct rhythm
+2025-08-08 17:19:27,336 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#4} No timeOffset for HeadChordInter#3886{(0.947/0.947) staff:3 slot#10 dur:1/8}
+2025-08-08 17:19:27,338 INFO [example#1]                Voice.java:257  | Measure{#4} Voice{#1 excess:1/8} too long
+2025-08-08 17:19:27,338 INFO [example#1]                Voice.java:257  | Measure{#4} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:27,340 INFO [example#1]          StackRhythm.java:224  | S2 MeasureStack#4 no correct rhythm
+2025-08-08 17:19:27,353 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#5} No timeOffset for HeadChordInter#3896{(0.954/0.954) staff:3 slot#10 dur:3/16}
+2025-08-08 17:19:27,354 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#5} No timeOffset for HeadChordInter#3895{(0.936/0.936) staff:3 slot#10 dur:1/8}
+2025-08-08 17:19:27,355 INFO [example#1]                Voice.java:257  | Measure{#5} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:27,357 INFO [example#1]          StackRhythm.java:224  | S2 MeasureStack#5 no correct rhythm
+2025-08-08 17:19:27,366 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#3921{(0.953/0.953) staff:5 slot#10 dur:3/16}
+2025-08-08 17:19:27,368 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#3920{(0.944/0.944) staff:5 slot#10 dur:1/8}
+2025-08-08 17:19:27,369 INFO [example#1]                Voice.java:257  | Measure{#6} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:27,371 INFO [example#1]          StackRhythm.java:224  | S3 MeasureStack#6 no correct rhythm
+2025-08-08 17:19:27,378 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#7} No timeOffset for HeadChordInter#3936{(0.930/0.930) staff:5 slot#10 dur:1/8}
+2025-08-08 17:19:27,379 INFO [example#1]                Voice.java:257  | Measure{#7} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:27,380 INFO [example#1]                Voice.java:257  | Measure{#7} Voice{#3 excess:1/4} too long
+2025-08-08 17:19:27,380 INFO [example#1]                Voice.java:257  | Measure{#7} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:27,381 INFO [example#1]          StackRhythm.java:224  | S3 MeasureStack#7 no correct rhythm
+2025-08-08 17:19:27,390 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#3951{(0.931/0.931) staff:5 slot#10 dur:1/4}
+2025-08-08 17:19:27,392 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#3950{(0.928/0.928) staff:5 slot#10 dur:1/8}
+2025-08-08 17:19:27,393 INFO [example#1]                Voice.java:257  | Measure{#8} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:27,394 INFO [example#1]                Voice.java:257  | Measure{#8} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:27,396 INFO [example#1]          StackRhythm.java:224  | S3 MeasureStack#8 no correct rhythm
+2025-08-08 17:19:27,408 INFO [example#1]                Voice.java:257  | Measure{#9} Voice{#4 excess:1/4} too long
+2025-08-08 17:19:27,410 INFO [example#1]          StackRhythm.java:224  | S4 MeasureStack#9 no correct rhythm
+2025-08-08 17:19:27,420 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#10} No timeOffset for HeadChordInter#3984{(0.949/0.949) staff:7 slot#10 dur:3/16}
+2025-08-08 17:19:27,421 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#10} No timeOffset for HeadChordInter#3983{(0.941/0.941) staff:7 slot#10 dur:1/8}
+2025-08-08 17:19:27,423 INFO [example#1]                Voice.java:257  | Measure{#10} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:27,425 INFO [example#1]          StackRhythm.java:224  | S4 MeasureStack#10 no correct rhythm
+2025-08-08 17:19:27,435 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#11} No timeOffset for HeadChordInter#3999{(0.953/0.953) staff:7 slot#10 dur:3/16}
+2025-08-08 17:19:27,438 INFO [example#1]        MeasureRhythm.java:1045 | Measure{#11} No timeOffset for HeadChordInter#3998{(0.941/0.941) staff:7 slot#10 dur:1/8}
+2025-08-08 17:19:27,439 INFO [example#1]                Voice.java:257  | Measure{#11} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:27,440 INFO [example#1]          StackRhythm.java:224  | S4 MeasureStack#11 no correct rhythm
+2025-08-08 17:19:27,442 INFO [example#1]       StepMonitoring.java:98   | PAGE
+2025-08-08 17:19:27,451 INFO [example#1]                Voice.java:257  | Measure{#1} Voice{#1 excess:1/8} too long
+2025-08-08 17:19:27,453 INFO [example#1]                Voice.java:257  | Measure{#2} Voice{#1 excess:1/8} too long
+2025-08-08 17:19:27,454 INFO [example#1]                Voice.java:257  | Measure{#3} Voice{#1 excess:1/8} too long
+2025-08-08 17:19:27,455 INFO [example#1]                Voice.java:257  | Measure{#3} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:27,455 INFO [example#1]                Voice.java:257  | Measure{#4} Voice{#1 excess:1/8} too long
+2025-08-08 17:19:27,456 INFO [example#1]                Voice.java:257  | Measure{#4} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:27,457 INFO [example#1]                Voice.java:257  | Measure{#5} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:27,458 INFO [example#1]                Voice.java:257  | Measure{#6} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:27,458 INFO [example#1]                Voice.java:257  | Measure{#7} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:27,459 INFO [example#1]                Voice.java:257  | Measure{#7} Voice{#3 excess:1/4} too long
+2025-08-08 17:19:27,459 INFO [example#1]                Voice.java:257  | Measure{#7} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:27,460 INFO [example#1]                Voice.java:257  | Measure{#8} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:27,461 INFO [example#1]                Voice.java:257  | Measure{#8} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:27,462 INFO [example#1]                Voice.java:257  | Measure{#9} Voice{#4 excess:1/4} too long
+2025-08-08 17:19:27,462 INFO [example#1]                Voice.java:257  | Measure{#10} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:27,463 INFO [example#1]                Voice.java:257  | Measure{#11} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:27,465 INFO [example#1]                 Book.java:2550 | Book{example} storing
+2025-08-08 17:19:27,556 INFO [example#1]                 Book.java:2531 | Stored /book.xml
+2025-08-08 17:19:27,713 INFO [example#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-08-08 17:19:28,683 INFO [example#1]                Sheet.java:1562 | Stored /sheet#1/sheet#1.xml
+2025-08-08 17:19:28,683 INFO [example#1]                 Book.java:2491 | Book stored as /home/zwingli/sheetra/backend/outputs/example.omr
+2025-08-08 17:19:28,686 INFO [example#1]            SheetStub.java:1644 | Disposed sheet#1
+2025-08-08 17:19:28,769 INFO [example#1]                 Book.java:2018 | End of Stub#1 memory: 31,557,608
+2025-08-08 17:19:28,771 INFO [example#2]       StepMonitoring.java:98   | LOAD
+2025-08-08 17:19:28,874 INFO [example#2]            SheetStub.java:1268 | Loaded image #2 2479x3508 from /home/zwingli/sheetra/backend/uploads/example.pdf
+2025-08-08 17:19:28,876 INFO [example#2]       StepMonitoring.java:98   | BINARY
+2025-08-08 17:19:29,769 INFO [example#2]       StepMonitoring.java:98   | SCALE
+2025-08-08 17:19:29,782 INFO [example#2]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-08-08 17:19:29,783 INFO [example#2]         ScaleBuilder.java:264  | Beam measured height: 11 -- 0.33 of [6..21] range at 334% of needed quorum
+2025-08-08 17:19:29,784 INFO [example#2]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,4) beam(11)}
+2025-08-08 17:19:29,784 INFO [example#2]       StepMonitoring.java:98   | GRID
+2025-08-08 17:19:30,170 INFO [example#2]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-08-08 17:19:30,197 INFO [example#2]    ClustersRetriever.java:328  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2025-08-08 17:19:30,329 INFO [example#2]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2025-08-08 17:19:30,666 INFO [example#2]        SystemManager.java:779  | 1 part along 5 systems
+2025-08-08 17:19:30,669 INFO [example#2]       StepMonitoring.java:98   | HEADERS
+2025-08-08 17:19:31,411 INFO [example#2]       StepMonitoring.java:98   | STEM_SEEDS
+2025-08-08 17:19:31,475 INFO [example#2]        StemSeedsStep.java:86   | stem(3 max:4)
+2025-08-08 17:19:31,515 INFO [example#2]       StepMonitoring.java:98   | BEAMS
+2025-08-08 17:19:36,759 INFO [example#2]       StepMonitoring.java:98   | LEDGERS
+2025-08-08 17:19:37,075 INFO [example#2]       StepMonitoring.java:98   | HEADS
+2025-08-08 17:19:43,325 INFO [example#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.1,R:-0.4] NOTEHEAD_BLACK[L:0.5,R:-0.1]}
+2025-08-08 17:19:43,326 INFO [example#2]       StepMonitoring.java:98   | STEMS
+2025-08-08 17:19:44,057 INFO [example#2]       StepMonitoring.java:98   | REDUCTION
+2025-08-08 17:19:44,179 INFO [example#2]        ReductionStep.java:105  | Stems free length median value: 71 pixels, 3.4 interlines
+2025-08-08 17:19:44,184 INFO [example#2]       StepMonitoring.java:98   | CUE_BEAMS
+2025-08-08 17:19:44,184 INFO [example#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-08-08 17:19:44,185 INFO [example#2]       StepMonitoring.java:98   | TEXTS
+2025-08-08 17:19:45,258 INFO [example#2]       StepMonitoring.java:98   | MEASURES
+2025-08-08 17:19:45,261 INFO [example#2]                 Page.java:307  | 15 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4, 3 in system#5]
+2025-08-08 17:19:45,262 INFO [example#2]       StepMonitoring.java:98   | CHORDS
+2025-08-08 17:19:45,276 INFO [example#2]       StepMonitoring.java:98   | CURVES
+2025-08-08 17:19:46,496 INFO [example#2]         SlursBuilder.java:240  | Slurs: 3
+2025-08-08 17:19:46,506 INFO [example#2]      SegmentsBuilder.java:155  | Segments: 9
+2025-08-08 17:19:46,507 INFO [example#2]       StepMonitoring.java:98   | SYMBOLS
+2025-08-08 17:19:47,124 INFO [example#2]       StepMonitoring.java:98   | LINKS
+2025-08-08 17:19:47,201 INFO [example#2]       StepMonitoring.java:98   | RHYTHMS
+2025-08-08 17:19:47,203 INFO [example#2]           PageRhythm.java:199  | {Page#2.1} Time value reused from sheet#1
+2025-08-08 17:19:47,215 INFO [example#2]                Voice.java:257  | Measure{#1} Voice{#6 excess:1/8} too long
+2025-08-08 17:19:47,216 INFO [example#2]          StackRhythm.java:224  | S1 MeasureStack#1 no correct rhythm
+2025-08-08 17:19:47,221 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#2} No timeOffset for HeadChordInter#5294{(0.938/0.938) staff:1 slot#10 dur:1/4}
+2025-08-08 17:19:47,222 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#2} No timeOffset for HeadChordInter#5314{(0.960/0.960) staff:2 slot#10 dur:1/8}
+2025-08-08 17:19:47,223 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#2} No timeOffset for HeadChordInter#5315{(0.915/0.915) slot#10 dur:1/4}
+2025-08-08 17:19:47,224 INFO [example#2]                Voice.java:257  | Measure{#2} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:47,225 INFO [example#2]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2025-08-08 17:19:47,230 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#3} No timeOffset for HeadChordInter#5329{(0.953/0.953) staff:2 slot#10 dur:1/8}
+2025-08-08 17:19:47,231 INFO [example#2]                Voice.java:257  | Measure{#3} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:47,231 INFO [example#2]                Voice.java:257  | Measure{#3} Voice{#2 excess:1/4} too long
+2025-08-08 17:19:47,232 INFO [example#2]                Voice.java:257  | Measure{#3} Voice{#7 excess:1/4} too long
+2025-08-08 17:19:47,233 INFO [example#2]          StackRhythm.java:224  | S1 MeasureStack#3 no correct rhythm
+2025-08-08 17:19:47,239 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#4} No timeOffset for HeadChordInter#5344{(0.933/0.933) staff:3 slot#10 dur:1/4}
+2025-08-08 17:19:47,239 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#4} No timeOffset for HeadChordInter#5343{(0.934/0.934) staff:3 slot#10 dur:1/8}
+2025-08-08 17:19:47,241 INFO [example#2]          StackRhythm.java:224  | S2 MeasureStack#4 no correct rhythm
+2025-08-08 17:19:47,250 INFO [example#2]                Voice.java:257  | Measure{#5} Voice{#6 excess:1/8} too long
+2025-08-08 17:19:47,251 INFO [example#2]          StackRhythm.java:224  | S2 MeasureStack#5 no correct rhythm
+2025-08-08 17:19:47,257 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#5372{(0.928/0.928) staff:3 slot#10 dur:1/4}
+2025-08-08 17:19:47,258 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#5371{(0.940/0.940) staff:3 slot#10 dur:1/8}
+2025-08-08 17:19:47,258 INFO [example#2]                Voice.java:257  | Measure{#6} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,259 INFO [example#2]          StackRhythm.java:224  | S2 MeasureStack#6 no correct rhythm
+2025-08-08 17:19:47,266 INFO [example#2]                Voice.java:257  | Measure{#7} Voice{#6 excess:1/8} too long
+2025-08-08 17:19:47,267 INFO [example#2]          StackRhythm.java:224  | S3 MeasureStack#7 no correct rhythm
+2025-08-08 17:19:47,271 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#5408{(0.941/0.941) staff:5 slot#10 dur:1/8}
+2025-08-08 17:19:47,272 INFO [example#2]                Voice.java:257  | Measure{#8} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,273 INFO [example#2]                Voice.java:257  | Measure{#8} Voice{#3 excess:1/4} too long
+2025-08-08 17:19:47,273 INFO [example#2]                Voice.java:257  | Measure{#8} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:47,274 INFO [example#2]          StackRhythm.java:224  | S3 MeasureStack#8 no correct rhythm
+2025-08-08 17:19:47,279 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#9} No timeOffset for HeadChordInter#5422{(0.941/0.941) staff:5 slot#10 dur:1/8}
+2025-08-08 17:19:47,279 INFO [example#2]                Voice.java:257  | Measure{#9} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,280 INFO [example#2]                Voice.java:257  | Measure{#9} Voice{#3 excess:1/4} too long
+2025-08-08 17:19:47,280 INFO [example#2]                Voice.java:257  | Measure{#9} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:47,281 INFO [example#2]          StackRhythm.java:224  | S3 MeasureStack#9 no correct rhythm
+2025-08-08 17:19:47,286 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#10} No timeOffset for HeadChordInter#5458{(0.953/0.953) staff:8 slot#10 dur:1/8}
+2025-08-08 17:19:47,287 INFO [example#2]                Voice.java:257  | Measure{#10} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:47,288 INFO [example#2]                Voice.java:257  | Measure{#10} Voice{#2 excess:1/4} too long
+2025-08-08 17:19:47,289 INFO [example#2]                Voice.java:257  | Measure{#10} Voice{#7 excess:1/4} too long
+2025-08-08 17:19:47,290 INFO [example#2]          StackRhythm.java:224  | S4 MeasureStack#10 no correct rhythm
+2025-08-08 17:19:47,296 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#11} No timeOffset for HeadChordInter#5437{(0.930/0.930) staff:7 slot#10 dur:1/4}
+2025-08-08 17:19:47,297 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#11} No timeOffset for HeadChordInter#5472{(0.957/0.957) staff:8 slot#10 dur:1/8}
+2025-08-08 17:19:47,298 INFO [example#2]                Voice.java:257  | Measure{#11} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:47,298 INFO [example#2]                Voice.java:257  | Measure{#11} Voice{#7 excess:1/4} too long
+2025-08-08 17:19:47,299 INFO [example#2]          StackRhythm.java:224  | S4 MeasureStack#11 no correct rhythm
+2025-08-08 17:19:47,306 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#12} No timeOffset for HeadChordInter#5443{(0.951/0.951) staff:7 slot#10 dur:3/16}
+2025-08-08 17:19:47,307 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#12} No timeOffset for HeadChordInter#5442{(0.935/0.935) staff:7 slot#10 dur:1/8}
+2025-08-08 17:19:47,308 INFO [example#2]                Voice.java:257  | Measure{#12} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:47,309 INFO [example#2]          StackRhythm.java:224  | S4 MeasureStack#12 no correct rhythm
+2025-08-08 17:19:47,315 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#13} No timeOffset for HeadChordInter#5495{(0.949/0.949) staff:9 slot#10 dur:3/16}
+2025-08-08 17:19:47,316 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#13} No timeOffset for HeadChordInter#5494{(0.918/0.918) staff:9 slot#10 dur:1/8}
+2025-08-08 17:19:47,317 INFO [example#2]                Voice.java:257  | Measure{#13} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,318 INFO [example#2]          StackRhythm.java:224  | S5 MeasureStack#13 no correct rhythm
+2025-08-08 17:19:47,322 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#14} No timeOffset for HeadChordInter#5510{(0.943/0.943) staff:9 slot#10 dur:1/4}
+2025-08-08 17:19:47,323 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#14} No timeOffset for HeadChordInter#5511{(0.931/0.931) staff:9 slot#10 dur:1/8}
+2025-08-08 17:19:47,324 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#14} No timeOffset for HeadChordInter#5530{(0.962/0.962) slot#10 dur:1/4}
+2025-08-08 17:19:47,325 INFO [example#2]                Voice.java:257  | Measure{#14} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,325 INFO [example#2]          StackRhythm.java:224  | S5 MeasureStack#14 no correct rhythm
+2025-08-08 17:19:47,330 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#5525{(0.915/0.915) staff:9 slot#10 dur:1/4}
+2025-08-08 17:19:47,331 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#5524{(0.940/0.940) staff:9 slot#10 dur:1/8}
+2025-08-08 17:19:47,331 INFO [example#2]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#5532{(0.966/0.966) slot#10 dur:1/4}
+2025-08-08 17:19:47,332 INFO [example#2]                Voice.java:257  | Measure{#15} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,333 INFO [example#2]          StackRhythm.java:224  | S5 MeasureStack#15 no correct rhythm
+2025-08-08 17:19:47,334 INFO [example#2]       StepMonitoring.java:98   | PAGE
+2025-08-08 17:19:47,337 INFO [example#2]                Voice.java:257  | Measure{#1} Voice{#6 excess:1/8} too long
+2025-08-08 17:19:47,339 INFO [example#2]                Voice.java:257  | Measure{#2} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:47,340 INFO [example#2]                Voice.java:257  | Measure{#3} Voice{#2 excess:1/4} too long
+2025-08-08 17:19:47,340 INFO [example#2]                Voice.java:257  | Measure{#3} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:47,341 INFO [example#2]                Voice.java:257  | Measure{#3} Voice{#7 excess:1/4} too long
+2025-08-08 17:19:47,341 INFO [example#2]                Voice.java:257  | Measure{#5} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:47,342 INFO [example#2]                Voice.java:257  | Measure{#6} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,343 INFO [example#2]                Voice.java:257  | Measure{#7} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:47,344 INFO [example#2]                Voice.java:257  | Measure{#8} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,344 INFO [example#2]                Voice.java:257  | Measure{#8} Voice{#3 excess:1/4} too long
+2025-08-08 17:19:47,345 INFO [example#2]                Voice.java:257  | Measure{#8} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:47,346 INFO [example#2]                Voice.java:257  | Measure{#9} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,346 INFO [example#2]                Voice.java:257  | Measure{#9} Voice{#3 excess:1/4} too long
+2025-08-08 17:19:47,347 INFO [example#2]                Voice.java:257  | Measure{#9} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:47,347 INFO [example#2]                Voice.java:257  | Measure{#10} Voice{#2 excess:1/4} too long
+2025-08-08 17:19:47,348 INFO [example#2]                Voice.java:257  | Measure{#10} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:47,348 INFO [example#2]                Voice.java:257  | Measure{#10} Voice{#7 excess:1/4} too long
+2025-08-08 17:19:47,348 INFO [example#2]                Voice.java:257  | Measure{#11} Voice{#5 excess:1/8} too long
+2025-08-08 17:19:47,348 INFO [example#2]                Voice.java:257  | Measure{#11} Voice{#7 excess:1/4} too long
+2025-08-08 17:19:47,349 INFO [example#2]                Voice.java:257  | Measure{#12} Voice{#6 excess:1/4} too long
+2025-08-08 17:19:47,349 INFO [example#2]                Voice.java:257  | Measure{#13} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,350 INFO [example#2]                Voice.java:257  | Measure{#14} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,350 INFO [example#2]                Voice.java:257  | Measure{#15} Voice{#2 excess:1/8} too long
+2025-08-08 17:19:47,351 INFO [example#2]                 Book.java:2550 | Book{example} storing
+2025-08-08 17:19:47,443 INFO [example#2]                 Book.java:2531 | Stored /book.xml
+2025-08-08 17:19:47,553 INFO [example#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2025-08-08 17:19:48,153 INFO [example#2]                Sheet.java:1562 | Stored /sheet#2/sheet#2.xml
+2025-08-08 17:19:48,154 INFO [example#2]                 Book.java:2491 | Book stored as /home/zwingli/sheetra/backend/outputs/example.omr
+2025-08-08 17:19:48,158 INFO [example#2]            SheetStub.java:1644 | Disposed sheet#2
+2025-08-08 17:19:48,243 INFO [example#2]                 Book.java:2018 | End of Stub#2 memory: 31,788,688
+2025-08-08 17:19:48,244 INFO [example#3]       StepMonitoring.java:98   | LOAD
+2025-08-08 17:19:48,329 INFO [example#3]            SheetStub.java:1268 | Loaded image #3 2479x3508 from /home/zwingli/sheetra/backend/uploads/example.pdf
+2025-08-08 17:19:48,331 INFO [example#3]       StepMonitoring.java:98   | BINARY
+2025-08-08 17:19:49,264 INFO [example#3]       StepMonitoring.java:98   | SCALE
+2025-08-08 17:19:49,271 INFO [example#3]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-08-08 17:19:49,271 INFO [example#3]         ScaleBuilder.java:264  | Beam measured height: 11 -- 0.33 of [6..21] range at 330% of needed quorum
+2025-08-08 17:19:49,271 INFO [example#3]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,4) beam(11)}
+2025-08-08 17:19:49,272 INFO [example#3]       StepMonitoring.java:98   | GRID
+2025-08-08 17:19:49,400 INFO [example#3]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-08-08 17:19:49,422 INFO [example#3]    ClustersRetriever.java:328  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2025-08-08 17:19:49,517 INFO [example#3]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2025-08-08 17:19:49,727 INFO [example#3]        SystemManager.java:779  | 1 part along 5 systems
+2025-08-08 17:19:49,728 INFO [example#3]       StepMonitoring.java:98   | HEADERS
+2025-08-08 17:19:50,459 INFO [example#3]       StepMonitoring.java:98   | STEM_SEEDS
+2025-08-08 17:19:50,519 INFO [example#3]        StemSeedsStep.java:86   | stem(3 max:4)
+2025-08-08 17:19:50,534 INFO [example#3]       StepMonitoring.java:98   | BEAMS
+2025-08-08 17:19:55,647 INFO [example#3]       StepMonitoring.java:98   | LEDGERS
+2025-08-08 17:19:55,800 INFO [example#3]       StepMonitoring.java:98   | HEADS
+2025-08-08 17:20:01,943 INFO [example#3]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:-0.3] NOTEHEAD_BLACK[L:0.5,R:0.1]}
+2025-08-08 17:20:01,945 INFO [example#3]       StepMonitoring.java:98   | STEMS
+2025-08-08 17:20:02,828 INFO [example#3]       StepMonitoring.java:98   | REDUCTION
+2025-08-08 17:20:02,951 INFO [example#3]        ReductionStep.java:105  | Stems free length median value: 63 pixels, 3.0 interlines
+2025-08-08 17:20:02,955 INFO [example#3]       StepMonitoring.java:98   | CUE_BEAMS
+2025-08-08 17:20:02,955 INFO [example#3]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-08-08 17:20:02,956 INFO [example#3]       StepMonitoring.java:98   | TEXTS
+2025-08-08 17:20:04,236 INFO [example#3]       StepMonitoring.java:98   | MEASURES
+2025-08-08 17:20:04,239 INFO [example#3]                 Page.java:307  | 15 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4, 3 in system#5]
+2025-08-08 17:20:04,239 INFO [example#3]       StepMonitoring.java:98   | CHORDS
+2025-08-08 17:20:04,248 INFO [example#3]       StepMonitoring.java:98   | CURVES
+2025-08-08 17:20:05,312 INFO [example#3]         SlursBuilder.java:240  | Slurs: 6
+2025-08-08 17:20:05,319 INFO [example#3]      SegmentsBuilder.java:155  | Segments: 12
+2025-08-08 17:20:05,320 INFO [example#3]       StepMonitoring.java:98   | SYMBOLS
+2025-08-08 17:20:05,800 INFO [example#3]       StepMonitoring.java:98   | LINKS
+2025-08-08 17:20:05,850 INFO [example#3]       StepMonitoring.java:98   | RHYTHMS
+2025-08-08 17:20:05,852 INFO [example#3]           PageRhythm.java:199  | {Page#3.1} Time value reused from sheet#1
+2025-08-08 17:20:05,861 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#1} No timeOffset for HeadChordInter#4308{(0.932/0.932) staff:1 slot#11 dur:1/4}
+2025-08-08 17:20:05,863 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#1} No timeOffset for HeadChordInter#4307{(0.929/0.929) staff:1 slot#11 dur:1/8}
+2025-08-08 17:20:05,864 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#1} No timeOffset for HeadChordInter#4346{(0.957/0.957) staff:2 slot#11 dur:1/4}
+2025-08-08 17:20:05,864 INFO [example#3]                Voice.java:257  | Measure{#1} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:05,865 INFO [example#3]                Voice.java:257  | Measure{#1} Voice{#3 excess:1/8} too long
+2025-08-08 17:20:05,865 INFO [example#3]                Voice.java:257  | Measure{#1} Voice{#6 excess:1/8} too long
+2025-08-08 17:20:05,866 INFO [example#3]          StackRhythm.java:224  | S1 MeasureStack#1 no correct rhythm
+2025-08-08 17:20:05,872 INFO [example#3]                Voice.java:257  | Measure{#2} Voice{#1 excess:1/4} too long
+2025-08-08 17:20:05,872 INFO [example#3]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2025-08-08 17:20:05,878 INFO [example#3]                Voice.java:257  | Measure{#3} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,878 INFO [example#3]                Voice.java:257  | Measure{#3} Voice{#4 excess:1/4} too long
+2025-08-08 17:20:05,879 INFO [example#3]          StackRhythm.java:224  | S1 MeasureStack#3 no correct rhythm
+2025-08-08 17:20:05,883 INFO [example#3]                Voice.java:257  | Measure{#4} Voice{#1 excess:1/4} too long
+2025-08-08 17:20:05,884 INFO [example#3]          StackRhythm.java:224  | S2 MeasureStack#4 no correct rhythm
+2025-08-08 17:20:05,889 INFO [example#3]                Voice.java:257  | Measure{#5} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:05,890 INFO [example#3]                Voice.java:257  | Measure{#5} Voice{#10 excess:1/4} too long
+2025-08-08 17:20:05,890 INFO [example#3]          StackRhythm.java:224  | S2 MeasureStack#5 no correct rhythm
+2025-08-08 17:20:05,894 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#4372{(0.942/0.942) staff:3 slot#10 dur:1/8}
+2025-08-08 17:20:05,895 INFO [example#3]                Voice.java:257  | Measure{#6} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:05,895 INFO [example#3]          StackRhythm.java:224  | S2 MeasureStack#6 no correct rhythm
+2025-08-08 17:20:05,898 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#7} No timeOffset for HeadChordInter#4408{(0.944/0.944) staff:5 slot#10 dur:1/8}
+2025-08-08 17:20:05,899 INFO [example#3]                Voice.java:257  | Measure{#7} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:05,900 INFO [example#3]          StackRhythm.java:224  | S3 MeasureStack#7 no correct rhythm
+2025-08-08 17:20:05,903 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#4420{(0.941/0.941) staff:5 slot#10 dur:1/8}
+2025-08-08 17:20:05,904 INFO [example#3]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,905 INFO [example#3]          StackRhythm.java:224  | S3 MeasureStack#8 no correct rhythm
+2025-08-08 17:20:05,907 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#9} No timeOffset for HeadChordInter#4432{(0.948/0.948) staff:5 slot#10 dur:1/8}
+2025-08-08 17:20:05,908 INFO [example#3]                Voice.java:257  | Measure{#9} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,909 INFO [example#3]          StackRhythm.java:224  | S3 MeasureStack#9 no correct rhythm
+2025-08-08 17:20:05,911 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#10} No timeOffset for HeadChordInter#4453{(0.962/0.962) staff:7 slot#10 dur:1/8}
+2025-08-08 17:20:05,912 INFO [example#3]                Voice.java:257  | Measure{#10} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,913 INFO [example#3]          StackRhythm.java:224  | S4 MeasureStack#10 no correct rhythm
+2025-08-08 17:20:05,918 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#11} No timeOffset for HeadChordInter#4471{(0.756/0.756) staff:7 slot#10 dur:1/8}
+2025-08-08 17:20:05,919 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#11} No timeOffset for HeadChordInter#4469{(0.950/0.950) staff:7 slot#10 dur:1/4}
+2025-08-08 17:20:05,919 INFO [example#3]                Voice.java:257  | Measure{#11} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:05,920 INFO [example#3]                Voice.java:257  | Measure{#11} Voice{#3 excess:1/8} too long
+2025-08-08 17:20:05,920 INFO [example#3]          StackRhythm.java:224  | S4 MeasureStack#11 no correct rhythm
+2025-08-08 17:20:05,924 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#12} No timeOffset for HeadChordInter#4487{(0.756/0.756) staff:7 slot#10 dur:1/8}
+2025-08-08 17:20:05,925 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#12} No timeOffset for HeadChordInter#4485{(0.950/0.950) staff:7 slot#10 dur:1/4}
+2025-08-08 17:20:05,926 INFO [example#3]                Voice.java:257  | Measure{#12} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,926 INFO [example#3]          StackRhythm.java:224  | S4 MeasureStack#12 no correct rhythm
+2025-08-08 17:20:05,930 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#13} No timeOffset for HeadChordInter#4509{(0.772/0.772) staff:9 slot#10 dur:1/8}
+2025-08-08 17:20:05,931 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#13} No timeOffset for HeadChordInter#4507{(0.956/0.956) staff:9 slot#10 dur:1/4}
+2025-08-08 17:20:05,932 INFO [example#3]                Voice.java:257  | Measure{#13} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,933 INFO [example#3]          StackRhythm.java:224  | S5 MeasureStack#13 no correct rhythm
+2025-08-08 17:20:05,936 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#14} No timeOffset for HeadChordInter#4522{(0.950/0.950) staff:9 slot#10 dur:1/8}
+2025-08-08 17:20:05,937 INFO [example#3]                Voice.java:257  | Measure{#14} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,937 INFO [example#3]                Voice.java:257  | Measure{#14} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:05,938 INFO [example#3]          StackRhythm.java:224  | S5 MeasureStack#14 no correct rhythm
+2025-08-08 17:20:05,941 INFO [example#3]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#4534{(0.943/0.943) staff:9 slot#10 dur:1/8}
+2025-08-08 17:20:05,942 INFO [example#3]                Voice.java:257  | Measure{#15} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,942 INFO [example#3]                Voice.java:257  | Measure{#15} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:05,943 INFO [example#3]          StackRhythm.java:224  | S5 MeasureStack#15 no correct rhythm
+2025-08-08 17:20:05,944 INFO [example#3]       StepMonitoring.java:98   | PAGE
+2025-08-08 17:20:05,946 INFO [example#3]                Voice.java:257  | Measure{#1} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:05,947 INFO [example#3]                Voice.java:257  | Measure{#1} Voice{#3 excess:1/8} too long
+2025-08-08 17:20:05,947 INFO [example#3]                Voice.java:257  | Measure{#1} Voice{#6 excess:1/8} too long
+2025-08-08 17:20:05,947 INFO [example#3]                Voice.java:257  | Measure{#2} Voice{#1 excess:1/4} too long
+2025-08-08 17:20:05,948 INFO [example#3]                Voice.java:257  | Measure{#3} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,948 INFO [example#3]                Voice.java:257  | Measure{#3} Voice{#4 excess:1/4} too long
+2025-08-08 17:20:05,949 INFO [example#3]                Voice.java:257  | Measure{#4} Voice{#1 excess:1/4} too long
+2025-08-08 17:20:05,949 INFO [example#3]                Voice.java:257  | Measure{#5} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:05,949 INFO [example#3]                Voice.java:257  | Measure{#5} Voice{#10 excess:1/4} too long
+2025-08-08 17:20:05,950 INFO [example#3]                Voice.java:257  | Measure{#6} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:05,950 INFO [example#3]                Voice.java:257  | Measure{#7} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:05,951 INFO [example#3]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,951 INFO [example#3]                Voice.java:257  | Measure{#9} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,952 INFO [example#3]                Voice.java:257  | Measure{#10} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,953 INFO [example#3]                Voice.java:257  | Measure{#11} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:05,953 INFO [example#3]                Voice.java:257  | Measure{#11} Voice{#3 excess:1/8} too long
+2025-08-08 17:20:05,953 INFO [example#3]                Voice.java:257  | Measure{#12} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,954 INFO [example#3]                Voice.java:257  | Measure{#13} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,954 INFO [example#3]                Voice.java:257  | Measure{#14} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,954 INFO [example#3]                Voice.java:257  | Measure{#14} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:05,955 INFO [example#3]                Voice.java:257  | Measure{#15} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:05,955 INFO [example#3]                Voice.java:257  | Measure{#15} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:05,956 INFO [example#3]                 Book.java:2550 | Book{example} storing
+2025-08-08 17:20:06,053 INFO [example#3]                 Book.java:2531 | Stored /book.xml
+2025-08-08 17:20:06,163 INFO [example#3]           DataHolder.java:348  | Stored /sheet#3/BINARY.png
+2025-08-08 17:20:06,654 INFO [example#3]                Sheet.java:1562 | Stored /sheet#3/sheet#3.xml
+2025-08-08 17:20:06,655 INFO [example#3]                 Book.java:2491 | Book stored as /home/zwingli/sheetra/backend/outputs/example.omr
+2025-08-08 17:20:06,664 INFO [example#3]            SheetStub.java:1644 | Disposed sheet#3
+2025-08-08 17:20:06,758 INFO [example#3]                 Book.java:2018 | End of Stub#3 memory: 31,972,152
+2025-08-08 17:20:06,759 INFO [example#4]       StepMonitoring.java:98   | LOAD
+2025-08-08 17:20:06,837 INFO [example#4]            SheetStub.java:1268 | Loaded image #4 2479x3508 from /home/zwingli/sheetra/backend/uploads/example.pdf
+2025-08-08 17:20:06,839 INFO [example#4]       StepMonitoring.java:98   | BINARY
+2025-08-08 17:20:07,754 INFO [example#4]       StepMonitoring.java:98   | SCALE
+2025-08-08 17:20:07,759 INFO [example#4]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-08-08 17:20:07,760 INFO [example#4]         ScaleBuilder.java:264  | Beam measured height: 11 -- 0.33 of [6..21] range at 349% of needed quorum
+2025-08-08 17:20:07,760 INFO [example#4]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,4) beam(11)}
+2025-08-08 17:20:07,760 INFO [example#4]       StepMonitoring.java:98   | GRID
+2025-08-08 17:20:07,895 INFO [example#4]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-08-08 17:20:07,908 INFO [example#4]    ClustersRetriever.java:328  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2025-08-08 17:20:07,961 INFO [example#4]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2025-08-08 17:20:08,185 INFO [example#4]        SystemManager.java:779  | 1 part along 5 systems
+2025-08-08 17:20:08,187 INFO [example#4]       StepMonitoring.java:98   | HEADERS
+2025-08-08 17:20:08,923 INFO [example#4]       StepMonitoring.java:98   | STEM_SEEDS
+2025-08-08 17:20:08,981 INFO [example#4]        StemSeedsStep.java:86   | stem(3 max:3)
+2025-08-08 17:20:08,993 INFO [example#4]       StepMonitoring.java:98   | BEAMS
+2025-08-08 17:20:14,112 INFO [example#4]       StepMonitoring.java:98   | LEDGERS
+2025-08-08 17:20:14,380 INFO [example#4]       StepMonitoring.java:98   | HEADS
+2025-08-08 17:20:20,498 INFO [example#4]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:-0.5] NOTEHEAD_BLACK[L:-0.3,R:-0.4]}
+2025-08-08 17:20:20,499 INFO [example#4]       StepMonitoring.java:98   | STEMS
+2025-08-08 17:20:21,234 INFO [example#4]       StepMonitoring.java:98   | REDUCTION
+2025-08-08 17:20:21,365 INFO [example#4]        ReductionStep.java:105  | Stems free length median value: 71 pixels, 3.4 interlines
+2025-08-08 17:20:21,368 INFO [example#4]       StepMonitoring.java:98   | CUE_BEAMS
+2025-08-08 17:20:21,369 INFO [example#4]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-08-08 17:20:21,370 INFO [example#4]       StepMonitoring.java:98   | TEXTS
+2025-08-08 17:20:22,724 INFO [example#4]       StepMonitoring.java:98   | MEASURES
+2025-08-08 17:20:22,727 INFO [example#4]                 Page.java:307  | 15 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4, 3 in system#5]
+2025-08-08 17:20:22,729 INFO [example#4]       StepMonitoring.java:98   | CHORDS
+2025-08-08 17:20:22,740 INFO [example#4]       StepMonitoring.java:98   | CURVES
+2025-08-08 17:20:23,648 INFO [example#4]         SlursBuilder.java:240  | Slurs: 4
+2025-08-08 17:20:23,651 INFO [example#4]      SegmentsBuilder.java:155  | Segments: 1
+2025-08-08 17:20:23,652 INFO [example#4]       StepMonitoring.java:98   | SYMBOLS
+2025-08-08 17:20:24,171 INFO [example#4]       StepMonitoring.java:98   | LINKS
+2025-08-08 17:20:24,272 INFO [example#4]       StepMonitoring.java:98   | RHYTHMS
+2025-08-08 17:20:24,273 INFO [example#4]           PageRhythm.java:199  | {Page#4.1} Time value reused from sheet#1
+2025-08-08 17:20:24,278 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#1} No timeOffset for HeadChordInter#5009{(0.944/0.944) staff:1 slot#10 dur:3/16}
+2025-08-08 17:20:24,279 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#1} No timeOffset for HeadChordInter#5008{(0.923/0.923) staff:1 slot#10 dur:1/8}
+2025-08-08 17:20:24,280 INFO [example#4]                Voice.java:257  | Measure{#1} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:24,280 INFO [example#4]          StackRhythm.java:224  | S1 MeasureStack#1 no correct rhythm
+2025-08-08 17:20:24,284 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#2} No timeOffset for HeadChordInter#5024{(0.943/0.943) staff:1 slot#10 dur:3/16}
+2025-08-08 17:20:24,285 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#2} No timeOffset for HeadChordInter#5023{(0.941/0.941) staff:1 slot#10 dur:1/8}
+2025-08-08 17:20:24,286 INFO [example#4]                Voice.java:257  | Measure{#2} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,287 INFO [example#4]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2025-08-08 17:20:24,290 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#3} No timeOffset for HeadChordInter#5039{(0.937/0.937) staff:1 slot#10 dur:1/8}
+2025-08-08 17:20:24,291 INFO [example#4]                Voice.java:257  | Measure{#3} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,291 INFO [example#4]                Voice.java:257  | Measure{#3} Voice{#3 excess:1/4} too long
+2025-08-08 17:20:24,292 INFO [example#4]                Voice.java:257  | Measure{#3} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:24,292 INFO [example#4]          StackRhythm.java:224  | S1 MeasureStack#3 no correct rhythm
+2025-08-08 17:20:24,296 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#4} No timeOffset for HeadChordInter#5061{(0.918/0.918) staff:3 slot#10 dur:1/4}
+2025-08-08 17:20:24,297 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#4} No timeOffset for HeadChordInter#5062{(0.912/0.912) staff:3 slot#10 dur:1/8}
+2025-08-08 17:20:24,298 INFO [example#4]                Voice.java:257  | Measure{#4} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,298 INFO [example#4]                Voice.java:257  | Measure{#4} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:24,298 INFO [example#4]          StackRhythm.java:224  | S2 MeasureStack#4 no correct rhythm
+2025-08-08 17:20:24,303 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#5} No timeOffset for HeadChordInter#5076{(0.939/0.939) staff:3 slot#10 dur:3/16}
+2025-08-08 17:20:24,303 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#5} No timeOffset for HeadChordInter#5075{(0.936/0.936) staff:3 slot#10 dur:1/8}
+2025-08-08 17:20:24,304 INFO [example#4]          StackRhythm.java:224  | S2 MeasureStack#5 no correct rhythm
+2025-08-08 17:20:24,308 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#5091{(0.949/0.949) staff:3 slot#10 dur:3/16}
+2025-08-08 17:20:24,309 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#5090{(0.936/0.936) staff:3 slot#10 dur:1/8}
+2025-08-08 17:20:24,310 INFO [example#4]                Voice.java:257  | Measure{#6} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,310 INFO [example#4]          StackRhythm.java:224  | S2 MeasureStack#6 no correct rhythm
+2025-08-08 17:20:24,314 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#7} No timeOffset for HeadChordInter#5112{(0.931/0.931) staff:5 slot#10 dur:1/4}
+2025-08-08 17:20:24,315 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#7} No timeOffset for HeadChordInter#5113{(0.911/0.911) staff:5 slot#10 dur:1/8}
+2025-08-08 17:20:24,316 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#7} No timeOffset for HeadChordInter#5146{(0.959/0.959) staff:6 slot#10 dur:1/4}
+2025-08-08 17:20:24,316 INFO [example#4]                Voice.java:257  | Measure{#7} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,317 INFO [example#4]          StackRhythm.java:224  | S3 MeasureStack#7 no correct rhythm
+2025-08-08 17:20:24,320 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#5127{(0.914/0.914) staff:5 slot#10 dur:1/8}
+2025-08-08 17:20:24,321 INFO [example#4]                Voice.java:257  | Measure{#8} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,322 INFO [example#4]                Voice.java:257  | Measure{#8} Voice{#3 excess:1/4} too long
+2025-08-08 17:20:24,322 INFO [example#4]                Voice.java:257  | Measure{#8} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:24,322 INFO [example#4]          StackRhythm.java:224  | S3 MeasureStack#8 no correct rhythm
+2025-08-08 17:20:24,326 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#9} No timeOffset for HeadChordInter#5141{(0.934/0.934) staff:5 slot#10 dur:1/8}
+2025-08-08 17:20:24,326 INFO [example#4]                Voice.java:257  | Measure{#9} Voice{#2 excess:3/16} too long
+2025-08-08 17:20:24,327 INFO [example#4]                Voice.java:257  | Measure{#9} Voice{#3 excess:5/16} too long
+2025-08-08 17:20:24,327 INFO [example#4]                Voice.java:257  | Measure{#9} Voice{#6 excess:5/16} too long
+2025-08-08 17:20:24,328 INFO [example#4]          StackRhythm.java:224  | S3 MeasureStack#9 no correct rhythm
+2025-08-08 17:20:24,332 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#10} No timeOffset for HeadChordInter#5161{(0.937/0.937) staff:7 slot#10 dur:1/4}
+2025-08-08 17:20:24,333 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#10} No timeOffset for HeadChordInter#5162{(0.930/0.930) staff:7 slot#10 dur:1/8}
+2025-08-08 17:20:24,333 INFO [example#4]                Voice.java:257  | Measure{#10} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,334 INFO [example#4]          StackRhythm.java:224  | S4 MeasureStack#10 no correct rhythm
+2025-08-08 17:20:24,340 INFO [example#4]                Voice.java:257  | Measure{#11} Voice{#6 excess:1/8} too long
+2025-08-08 17:20:24,341 INFO [example#4]          StackRhythm.java:224  | S4 MeasureStack#11 no correct rhythm
+2025-08-08 17:20:24,345 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#12} No timeOffset for HeadChordInter#5189{(0.937/0.937) staff:7 slot#10 dur:1/4}
+2025-08-08 17:20:24,346 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#12} No timeOffset for HeadChordInter#5190{(0.935/0.935) staff:7 slot#10 dur:1/8}
+2025-08-08 17:20:24,347 INFO [example#4]                Voice.java:257  | Measure{#12} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,348 INFO [example#4]          StackRhythm.java:224  | S4 MeasureStack#12 no correct rhythm
+2025-08-08 17:20:24,355 INFO [example#4]                Voice.java:257  | Measure{#13} Voice{#6 excess:1/8} too long
+2025-08-08 17:20:24,356 INFO [example#4]          StackRhythm.java:224  | S5 MeasureStack#13 no correct rhythm
+2025-08-08 17:20:24,359 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#14} No timeOffset for HeadChordInter#5226{(0.923/0.923) staff:9 slot#10 dur:1/8}
+2025-08-08 17:20:24,360 INFO [example#4]                Voice.java:257  | Measure{#14} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,360 INFO [example#4]                Voice.java:257  | Measure{#14} Voice{#3 excess:1/4} too long
+2025-08-08 17:20:24,361 INFO [example#4]                Voice.java:257  | Measure{#14} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:24,361 INFO [example#4]          StackRhythm.java:224  | S5 MeasureStack#14 no correct rhythm
+2025-08-08 17:20:24,364 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#5240{(0.918/0.918) staff:9 slot#10 dur:1/4}
+2025-08-08 17:20:24,365 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#5239{(0.935/0.935) staff:9 slot#10 dur:1/8}
+2025-08-08 17:20:24,365 INFO [example#4]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#5250{(0.963/0.963) slot#10 dur:1/4}
+2025-08-08 17:20:24,366 INFO [example#4]                Voice.java:257  | Measure{#15} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,367 INFO [example#4]          StackRhythm.java:224  | S5 MeasureStack#15 no correct rhythm
+2025-08-08 17:20:24,367 INFO [example#4]       StepMonitoring.java:98   | PAGE
+2025-08-08 17:20:24,370 INFO [example#4]                Voice.java:257  | Measure{#1} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:24,371 INFO [example#4]                Voice.java:257  | Measure{#2} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,372 INFO [example#4]                Voice.java:257  | Measure{#3} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,372 INFO [example#4]                Voice.java:257  | Measure{#3} Voice{#3 excess:1/4} too long
+2025-08-08 17:20:24,372 INFO [example#4]                Voice.java:257  | Measure{#3} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:24,373 INFO [example#4]                Voice.java:257  | Measure{#4} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,373 INFO [example#4]                Voice.java:257  | Measure{#4} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:24,374 INFO [example#4]                Voice.java:257  | Measure{#6} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,374 INFO [example#4]                Voice.java:257  | Measure{#7} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,377 INFO [example#4]                Voice.java:257  | Measure{#8} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,378 INFO [example#4]                Voice.java:257  | Measure{#8} Voice{#3 excess:1/4} too long
+2025-08-08 17:20:24,378 INFO [example#4]                Voice.java:257  | Measure{#8} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:24,378 INFO [example#4]                Voice.java:257  | Measure{#9} Voice{#2 excess:3/16} too long
+2025-08-08 17:20:24,379 INFO [example#4]                Voice.java:257  | Measure{#9} Voice{#3 excess:5/16} too long
+2025-08-08 17:20:24,379 INFO [example#4]                Voice.java:257  | Measure{#9} Voice{#6 excess:5/16} too long
+2025-08-08 17:20:24,379 INFO [example#4]                Voice.java:257  | Measure{#10} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,380 INFO [example#4]                Voice.java:257  | Measure{#11} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:24,380 INFO [example#4]                Voice.java:257  | Measure{#12} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,380 INFO [example#4]                Voice.java:257  | Measure{#13} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:24,381 INFO [example#4]                Voice.java:257  | Measure{#14} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,381 INFO [example#4]                Voice.java:257  | Measure{#14} Voice{#3 excess:1/4} too long
+2025-08-08 17:20:24,381 INFO [example#4]                Voice.java:257  | Measure{#14} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:24,382 INFO [example#4]                Voice.java:257  | Measure{#15} Voice{#2 excess:1/8} too long
+2025-08-08 17:20:24,384 INFO [example#4]                 Book.java:2550 | Book{example} storing
+2025-08-08 17:20:24,482 INFO [example#4]                 Book.java:2531 | Stored /book.xml
+2025-08-08 17:20:24,594 INFO [example#4]           DataHolder.java:348  | Stored /sheet#4/BINARY.png
+2025-08-08 17:20:25,130 INFO [example#4]                Sheet.java:1562 | Stored /sheet#4/sheet#4.xml
+2025-08-08 17:20:25,130 INFO [example#4]                 Book.java:2491 | Book stored as /home/zwingli/sheetra/backend/outputs/example.omr
+2025-08-08 17:20:25,139 INFO [example#4]            SheetStub.java:1644 | Disposed sheet#4
+2025-08-08 17:20:25,229 INFO [example#4]                 Book.java:2018 | End of Stub#4 memory: 31,995,880
+2025-08-08 17:20:25,231 INFO [example#5]       StepMonitoring.java:98   | LOAD
+2025-08-08 17:20:25,304 INFO [example#5]            SheetStub.java:1268 | Loaded image #5 2479x3508 from /home/zwingli/sheetra/backend/uploads/example.pdf
+2025-08-08 17:20:25,305 INFO [example#5]       StepMonitoring.java:98   | BINARY
+2025-08-08 17:20:26,228 INFO [example#5]       StepMonitoring.java:98   | SCALE
+2025-08-08 17:20:26,232 INFO [example#5]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-08-08 17:20:26,233 INFO [example#5]         ScaleBuilder.java:264  | Beam measured height: 11 -- 0.33 of [6..21] range at 310% of needed quorum
+2025-08-08 17:20:26,233 INFO [example#5]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(1,2,4) beam(11)}
+2025-08-08 17:20:26,233 INFO [example#5]       StepMonitoring.java:98   | GRID
+2025-08-08 17:20:26,379 INFO [example#5]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-08-08 17:20:26,392 INFO [example#5]    ClustersRetriever.java:328  | Retrieved raw line clusters: 8 of sizes [5] with interline(20,21,21)
+2025-08-08 17:20:26,573 INFO [example#5]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8]
+2025-08-08 17:20:27,015 INFO [example#5]        SystemManager.java:779  | 1 part along 4 systems
+2025-08-08 17:20:27,016 INFO [example#5]       StepMonitoring.java:98   | HEADERS
+2025-08-08 17:20:27,521 INFO [example#5]       StepMonitoring.java:98   | STEM_SEEDS
+2025-08-08 17:20:27,581 INFO [example#5]        StemSeedsStep.java:86   | stem(3 max:4)
+2025-08-08 17:20:27,595 INFO [example#5]       StepMonitoring.java:98   | BEAMS
+2025-08-08 17:20:32,438 INFO [example#5]       StepMonitoring.java:98   | LEDGERS
+2025-08-08 17:20:32,763 INFO [example#5]       StepMonitoring.java:98   | HEADS
+2025-08-08 17:20:37,983 INFO [example#5]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:0.1] NOTEHEAD_BLACK[L:0.5,R:-0.3]}
+2025-08-08 17:20:37,984 INFO [example#5]       StepMonitoring.java:98   | STEMS
+2025-08-08 17:20:38,473 INFO [example#5]       StepMonitoring.java:98   | REDUCTION
+2025-08-08 17:20:38,533 INFO [example#5]        ReductionStep.java:105  | Stems free length median value: 73 pixels, 3.5 interlines
+2025-08-08 17:20:38,536 INFO [example#5]       StepMonitoring.java:98   | CUE_BEAMS
+2025-08-08 17:20:38,537 INFO [example#5]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-08-08 17:20:38,538 INFO [example#5]       StepMonitoring.java:98   | TEXTS
+2025-08-08 17:20:40,730 INFO [example#5]       StepMonitoring.java:98   | MEASURES
+2025-08-08 17:20:40,733 INFO [example#5]                 Page.java:307  | 13 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 4 in system#4]
+2025-08-08 17:20:40,734 INFO [example#5]       StepMonitoring.java:98   | CHORDS
+2025-08-08 17:20:40,741 INFO [example#5]       StepMonitoring.java:98   | CURVES
+2025-08-08 17:20:41,783 INFO [example#5]         SlursBuilder.java:240  | Slurs: 5
+2025-08-08 17:20:41,797 INFO [example#5]      SegmentsBuilder.java:155  | Segments: 12
+2025-08-08 17:20:41,798 INFO [example#5]       StepMonitoring.java:98   | SYMBOLS
+2025-08-08 17:20:42,561 INFO [example#5]       StepMonitoring.java:98   | LINKS
+2025-08-08 17:20:42,612 INFO [example#5]       StepMonitoring.java:98   | RHYTHMS
+2025-08-08 17:20:42,613 INFO [example#5]           PageRhythm.java:199  | {Page#5.1} Time value reused from sheet#1
+2025-08-08 17:20:42,621 INFO [example#5]                Voice.java:257  | Measure{#1} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:42,622 INFO [example#5]                Voice.java:257  | Measure{#1} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:42,622 INFO [example#5]                Voice.java:257  | Measure{#1} Voice{#6 excess:1/4} too long
+2025-08-08 17:20:42,622 INFO [example#5]          StackRhythm.java:224  | S1 MeasureStack#1 no correct rhythm
+2025-08-08 17:20:42,626 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#2} No timeOffset for HeadChordInter#4061{(0.936/0.936) staff:1 slot#10 dur:1/4}
+2025-08-08 17:20:42,627 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#2} No timeOffset for HeadChordInter#4080{(0.939/0.939) staff:2 slot#10 dur:1/8}
+2025-08-08 17:20:42,627 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#2} No timeOffset for HeadChordInter#4079{(0.957/0.957) staff:2 slot#10 dur:1/4}
+2025-08-08 17:20:42,627 INFO [example#5]                Voice.java:257  | Measure{#2} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:42,628 INFO [example#5]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2025-08-08 17:20:42,631 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#3} No timeOffset for HeadChordInter#4094{(0.952/0.952) staff:2 slot#10 dur:1/8}
+2025-08-08 17:20:42,632 INFO [example#5]                Voice.java:257  | Measure{#3} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:42,632 INFO [example#5]                Voice.java:257  | Measure{#3} Voice{#2 excess:1/4} too long
+2025-08-08 17:20:42,632 INFO [example#5]                Voice.java:257  | Measure{#3} Voice{#7 excess:1/4} too long
+2025-08-08 17:20:42,633 INFO [example#5]          StackRhythm.java:224  | S1 MeasureStack#3 no correct rhythm
+2025-08-08 17:20:42,636 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#4} No timeOffset for HeadChordInter#4104{(0.959/0.959) staff:3 slot#10 dur:1/8}
+2025-08-08 17:20:42,637 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#4} No timeOffset for HeadChordInter#4134{(0.951/0.951) staff:4 slot#10 dur:3/16}
+2025-08-08 17:20:42,637 INFO [example#5]          StackRhythm.java:224  | S2 MeasureStack#4 no correct rhythm
+2025-08-08 17:20:42,641 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#5} No timeOffset for HeadChordInter#4116{(0.965/0.965) staff:3 slot#10 dur:1/8}
+2025-08-08 17:20:42,642 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#5} No timeOffset for HeadChordInter#4137{(0.950/0.950) staff:4 slot#10 dur:3/16}
+2025-08-08 17:20:42,642 INFO [example#5]                Voice.java:257  | Measure{#5} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:42,643 INFO [example#5]          StackRhythm.java:224  | S2 MeasureStack#5 no correct rhythm
+2025-08-08 17:20:42,646 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#4128{(0.940/0.940) staff:3 slot#10 dur:1/8}
+2025-08-08 17:20:42,647 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#4140{(0.951/0.951) staff:4 slot#10 dur:3/16}
+2025-08-08 17:20:42,648 INFO [example#5]                Voice.java:257  | Measure{#6} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:42,648 INFO [example#5]          StackRhythm.java:224  | S2 MeasureStack#6 no correct rhythm
+2025-08-08 17:20:42,652 INFO [example#5]                Voice.java:257  | Measure{#7} Voice{#1 excess:1/2} too long
+2025-08-08 17:20:42,653 INFO [example#5]                Voice.java:257  | Measure{#7} Voice{#2 excess:3/8} too long
+2025-08-08 17:20:42,653 INFO [example#5]                Voice.java:257  | Measure{#7} Voice{#7 excess:3/8} too long
+2025-08-08 17:20:42,654 INFO [example#5]          StackRhythm.java:224  | S3 MeasureStack#7 no correct rhythm
+2025-08-08 17:20:42,657 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#4167{(0.958/0.958) staff:5 slot#10 dur:1/8}
+2025-08-08 17:20:42,658 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#4187{(0.948/0.948) staff:6 slot#10 dur:3/16}
+2025-08-08 17:20:42,658 INFO [example#5]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:42,659 INFO [example#5]          StackRhythm.java:224  | S3 MeasureStack#8 no correct rhythm
+2025-08-08 17:20:42,662 INFO [example#5]                Voice.java:257  | Measure{#9} Voice{#1 excess:1/2} too long
+2025-08-08 17:20:42,663 INFO [example#5]                Voice.java:257  | Measure{#9} Voice{#2 excess:3/8} too long
+2025-08-08 17:20:42,663 INFO [example#5]                Voice.java:257  | Measure{#9} Voice{#7 excess:3/8} too long
+2025-08-08 17:20:42,664 INFO [example#5]          StackRhythm.java:224  | S3 MeasureStack#9 no correct rhythm
+2025-08-08 17:20:42,666 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#10} No timeOffset for HeadChordInter#4203{(0.958/0.958) staff:7 slot#10 dur:1/8}
+2025-08-08 17:20:42,667 INFO [example#5]                Voice.java:257  | Measure{#10} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:42,668 INFO [example#5]                Voice.java:257  | Measure{#10} Voice{#7 excess:1/4} too long
+2025-08-08 17:20:42,668 INFO [example#5]          StackRhythm.java:224  | S4 MeasureStack#10 no correct rhythm
+2025-08-08 17:20:42,670 INFO [example#5]        MeasureRhythm.java:1045 | Measure{#11} No timeOffset for HeadChordInter#4221{(0.940/0.940) staff:8 slot#10 dur:1/8}
+2025-08-08 17:20:42,671 INFO [example#5]                Voice.java:257  | Measure{#11} Voice{#1 excess:1/4} too long
+2025-08-08 17:20:42,672 INFO [example#5]                Voice.java:257  | Measure{#11} Voice{#7 excess:1/8} too long
+2025-08-08 17:20:42,672 INFO [example#5]          StackRhythm.java:224  | S4 MeasureStack#11 no correct rhythm
+2025-08-08 17:20:42,674 INFO [example#5]       StepMonitoring.java:98   | PAGE
+2025-08-08 17:20:42,676 INFO [example#5]                Voice.java:257  | Measure{#1} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:42,676 INFO [example#5]                Voice.java:257  | Measure{#1} Voice{#5 excess:1/4} too long
+2025-08-08 17:20:42,677 INFO [example#5]                Voice.java:257  | Measure{#1} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:42,677 INFO [example#5]                Voice.java:257  | Measure{#2} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:42,677 INFO [example#5]                Voice.java:257  | Measure{#3} Voice{#2 excess:1/4} too long
+2025-08-08 17:20:42,677 INFO [example#5]                Voice.java:257  | Measure{#3} Voice{#5 excess:1/8} too long
+2025-08-08 17:20:42,677 INFO [example#5]                Voice.java:257  | Measure{#3} Voice{#7 excess:1/4} too long
+2025-08-08 17:20:42,678 INFO [example#5]                Voice.java:257  | Measure{#5} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:42,678 INFO [example#5]                Voice.java:257  | Measure{#6} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:42,678 INFO [example#5]                Voice.java:257  | Measure{#7} Voice{#1 excess:1/2} too long
+2025-08-08 17:20:42,679 INFO [example#5]                Voice.java:257  | Measure{#7} Voice{#2 excess:3/8} too long
+2025-08-08 17:20:42,679 INFO [example#5]                Voice.java:257  | Measure{#7} Voice{#7 excess:3/8} too long
+2025-08-08 17:20:42,679 INFO [example#5]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:42,680 INFO [example#5]                Voice.java:257  | Measure{#9} Voice{#1 excess:1/2} too long
+2025-08-08 17:20:42,680 INFO [example#5]                Voice.java:257  | Measure{#9} Voice{#2 excess:3/8} too long
+2025-08-08 17:20:42,680 INFO [example#5]                Voice.java:257  | Measure{#9} Voice{#7 excess:3/8} too long
+2025-08-08 17:20:42,681 INFO [example#5]                Voice.java:257  | Measure{#10} Voice{#1 excess:1/8} too long
+2025-08-08 17:20:42,681 INFO [example#5]                Voice.java:257  | Measure{#10} Voice{#7 excess:1/4} too long
+2025-08-08 17:20:42,681 INFO [example#5]                Voice.java:257  | Measure{#11} Voice{#1 excess:1/4} too long
+2025-08-08 17:20:42,681 INFO [example#5]                Voice.java:257  | Measure{#11} Voice{#7 excess:1/8} too long
+2025-08-08 17:20:42,683 INFO [example#5]                 Book.java:2550 | Book{example} storing
+2025-08-08 17:20:42,793 INFO [example#5]                 Book.java:2531 | Stored /book.xml
+2025-08-08 17:20:42,935 INFO [example#5]           DataHolder.java:348  | Stored /sheet#5/BINARY.png
+2025-08-08 17:20:43,447 INFO [example#5]                Sheet.java:1562 | Stored /sheet#5/sheet#5.xml
+2025-08-08 17:20:43,447 INFO [example#5]                 Book.java:2491 | Book stored as /home/zwingli/sheetra/backend/outputs/example.omr
+2025-08-08 17:20:43,458 INFO [example#5]            SheetStub.java:1644 | Disposed sheet#5
+2025-08-08 17:20:43,556 INFO [example#5]                 Book.java:2018 | End of Stub#5 memory: 32,197,680
+2025-08-08 17:20:43,557 INFO [example]                 Book.java:2025 | Book processed.
+2025-08-08 17:20:44,445 INFO [example]            SheetStub.java:995  | Loaded /sheet#1/sheet#1.xml
+2025-08-08 17:20:44,986 INFO [example]            SheetStub.java:995  | Loaded /sheet#2/sheet#2.xml
+2025-08-08 17:20:45,377 INFO [example]            SheetStub.java:995  | Loaded /sheet#3/sheet#3.xml
+2025-08-08 17:20:45,871 INFO [example]            SheetStub.java:995  | Loaded /sheet#4/sheet#4.xml
+2025-08-08 17:20:46,313 INFO [example]            SheetStub.java:995  | Loaded /sheet#5/sheet#5.xml
+2025-08-08 17:20:47,181 INFO [example]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#1#2#3#4#5]
+2025-08-08 17:20:47,612 INFO [example]        ScoreExporter.java:164  | Score example exported to /home/zwingli/sheetra/backend/outputs/example.mxl
+2025-08-08 17:20:47,713 INFO [example]                Score.java:181  | Closing {Score 1}
