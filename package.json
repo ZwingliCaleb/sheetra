@@ -1,0 +1,13 @@
+{
+  "name": "sheetra",
+  "version": "1.0.0",
+  "description": "Sheetra - High-Precision PDF to MSCZ Converter Platform",
+  "scripts": {
+    "start": "cd backend && node index.js",
+    "dev": "cd backend && node index.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "cd frontend && npm run build"
+  }
+}
